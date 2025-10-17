@@ -1,0 +1,122 @@
+/* Sidebar container */
+.ayurveda-sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+  }
+  
+  /* Card for each filter group */
+  .ayurveda-card {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .ayurveda-card-header {
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .ayurveda-card-body {
+    padding: 15px;
+  }
+  
+  .ayurveda-filter-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Search box */
+  .ayurveda-search-box .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .ayurveda-search-box input {
+    border-radius: 5px;
+  }
+  
+  .ayurveda-search-button {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* List of filter options */
+  .ayurveda-list-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ayurveda-list-menu li {
+    padding: 8px 0;
+  }
+  
+  .ayurveda-list-menu li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  .ayurveda-list-menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Checkbox & radio button styling */
+  .custom-control-input:checked ~ .custom-control-label {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .custom-control-label {
+    font-size: 14px;
+  }
+  
+  .checkbox-btn {
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-btn input {
+    display: none;
+  }
+  
+  .checkbox-btn span {
+    padding: 6px 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .checkbox-btn input:checked + span {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Range slider */
+  .custom-range {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input[type="number"] {
+    margin-top: 10px;
+  }
+  
+  /* Apply button */
+  .ayurveda-apply-button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .ayurveda-apply-button:hover {
+    background-color: #0056b3;
+  }
+  

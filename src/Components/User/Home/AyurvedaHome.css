@@ -1,0 +1,52 @@
+
+
+.homeimage{
+    /* Gemini_Generated_Image_o89mh2o89mh2o89m */
+
+position: absolute;
+z-index: -3;
+width: 100%;
+height: 700px;
+/* left:-10%; */
+top: 0px;
+
+background-image: url('../../../../public/AyurvedaMart.png');
+background-position: center;
+background-size: 90%;
+background-repeat: no-repeat;
+
+}
+.categoriesContain{
+    position: absolute;
+    /* background-color: red; */
+    /* top: 600px; */
+
+    width: 100%;
+/* top: 949px; */
+
+background: url('../../../../public/BodyImage.png');
+background-blend-mode: multiply;
+background-position: center;
+background-size: cover;
+}
+.categoryText{
+    /* Frame 49 */
+
+position: relative;
+width: 100%;
+height: 60px;
+/* left: 0px; */
+/* top: 0px; */
+z-index: 1;
+
+background:rgba(10, 10, 10, 0.648);
+
+
+}
+.categorySpace{
+    position: relative;
+    height: 400px;
+    top: 600px;
+    background-color: rgba(244, 244, 244, 0.101);
+    
+}

@@ -1,0 +1,67 @@
+/* Pagination Container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 8px;
+}
+
+/* General Button Styles */
+.pagination .btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+/* Active Button Style */
+.pagination .btn-primary.active {
+  background-color: #007bff;  /* Blue for active page */
+  color: white;
+}
+
+/* Inactive Button Style (for non-active buttons) */
+.pagination .btn-secondary {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Hover Effect */
+.pagination .btn:hover {
+  transform: scale(1.1);  /* Slight zoom effect */
+  background-color: #0056b3; /* Darker blue on hover */
+  color: white;
+}
+
+/* Disabled Button Style */
+.pagination .btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Ellipsis Styling */
+.pagination .pagination-ellipsis {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #888;
+  cursor: default;
+}
+
+/* Previous and Next Buttons */
+.pagination .btn:first-child, .pagination .btn:last-child {
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  background-color: #007bff; /* Primary Blue */
+  color: white;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.pagination .btn:first-child:hover, .pagination .btn:last-child:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px);
+}

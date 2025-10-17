@@ -1,0 +1,23 @@
+.sideContainer{
+    border: 1px solid;
+    border-radius: 12px;
+    background: url('../../../public/BodyImage.png');
+    /* background-position: center; */
+    /* background-size: cover; */
+   
+}
+
+.sideContainer::before{
+    content: '';
+    border: 1px solid;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.87);
+    z-index: 1;
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+
+.sideContainer > * {
+    position: relative;
+    z-index: 2;
+  }

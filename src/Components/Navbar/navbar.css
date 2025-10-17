@@ -1,0 +1,320 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 10px 7px;
+  background-color: rgb(255 255 255 / 30%);
+  box-shadow: 0 15px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-box {
+  width: 66px;
+  height: 50px;
+  background-color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.logo-box img {
+  width: 100%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 40px;
+}
+
+.search-container input {
+  width: 60%;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.search-container input:focus {
+  opacity: 1;
+  outline: none;
+}
+
+.menu {
+  display: flex;
+  gap: 60px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #d8ebff;
+}
+
+.menu a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #d8ebff;
+  transition: width 0.3s;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+.search-container .search-link {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.search-container .search-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-image: url('../../../public/BodyImage2.png'), linear-gradient(45deg, black, transparent);
+  background-position: top;
+  background-blend-mode: multiply;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  background-size: auto;
+  border-radius: 30px;
+}
+
+.sidebar-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+.sidebar-menu li {
+  margin: 15px 0;
+}
+
+.sidebar-menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  display: block;
+  padding: 20px 0px 20px 0px;
+  border-radius: 30px 0px 0px 30px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-menu a:hover {
+  background-color: #e0e0e093;
+  background-blend-mode: multiply;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Add Product Item Hover Styles */
+.add-product-item {
+  position: relative;
+}
+
+.category-hover-box {
+  display: block;
+  position: absolute;
+  top: -40px; /* Adjust position as needed */
+  left: 100%;
+  width: 100%;
+  background: url('../../../public/BodyImage2.png');
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1;
+  height: 150px; /* Set max height to trigger scroll */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal scroll */
+}
+
+.add-product-item {
+  position: relative;
+}
+
+.add-product-item:hover .category-hover-box {
+  display: block;
+}
+
+.hover-search {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.hover-categories {
+  height: auto;
+  overflow-y: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hover-category {
+  padding: 10px 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.hover-category:hover {
+  background-color: #e0e0e0;
+}
+/* Input Container Styles */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  opacity: 0.8;
+  transition: filter 0.3s;
+}
+
+.input-container input:focus {
+  filter: brightness(1.2);
+  outline: none;
+}
+.hover-search {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 90%;
+}
+.category-hover-box input:focus{
+  filter: brightness(100%);
+  outline: none;
+}
+.logout-button-hover{
+  position: absolute;
+  top: 7%;
+  background: white;
+  padding: 5px;
+  border-radius: 12px;
+  right: 2%;
+}
+
+.cart-count{
+  cursor: pointer;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+
+  .sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .sidebar-menu a {
+    padding: 10px;
+  }
+}
+
+/* Ensure the navbar collapses properly */
+.navbar-collapse {
+  display: none;
+}
+
+.navbar-collapse.show {
+  display: flex;
+}
+
+/* Adjust navbar-toggler styles for mobile */
+.navbar-toggler {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+}
+
+.navbar-toggler-icon {
+  display: block;
+  font-weight: bold;
+  content: "...";
+}
+
+/* For mobile, make the menu a vertical stack */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-collapse.show {
+    display: block;
+  }
+  .container-fluid{
+    display: flex;
+    
+    align-items: start;
+  }
+}
+

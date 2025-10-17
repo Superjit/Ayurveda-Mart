@@ -1,0 +1,144 @@
+.container55{
+    /* width: 80%; */
+    padding: 20px;
+    background-color: #f9f9f931;
+    animation: fadeIn 0.8s ease-in-out;
+    
+    height: 600px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+  }
+  
+  /* Custom Scrollbar Styles */
+  .container55::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .container55::-webkit-scrollbar-track {
+    background: #e0e0e0; /* Background of the scrollbar track */
+    border-radius: 4px;
+  }
+  
+  .container55::-webkit-scrollbar-thumb {
+    background-color: #2ef1ff; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Rounded corners of the thumb */
+    border: 2px solid #f9f9f931; /* Optional: adds padding effect */
+  }
+  
+  .container55::-webkit-scrollbar-thumb:hover {
+    background-color: #0099ff; /* Thumb color on hover */
+  }
+  
+
+.order-history {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-card {
+    border: 1px solid #020202f1;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    background: #19191994;
+    color: white;
+}
+
+.order-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.placeholder-image {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #6c757d;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    /* justify-content: end; */
+    display: table;
+    color: white;
+}
+.card-text strong{
+   color: #007bff;
+}
+
+.progress-bar {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+/* Step Progress Bar */
+.step-progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.step-progress::before {
+    content: '';
+    position: absolute;
+    top: 23%;
+    left: 0;
+    
+    right: 0;
+    height: 4px;
+    background: #ffffff;
+    z-index: 0;
+}
+
+.step {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.step .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.step.active-step .circle {
+    background-color: #007bff;
+    transform: scale(1.2);
+}
+
+.step p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.step-progress .step.active-step p {
+    font-weight: bold;
+    color: #007bff;
+}

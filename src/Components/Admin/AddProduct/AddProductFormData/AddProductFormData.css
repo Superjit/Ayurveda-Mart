@@ -1,0 +1,29 @@
+.headTextdata{
+    /* Frame 1373 */
+
+position: relative;
+width: 240%;
+/* width: 166%; */
+right: 280px;
+top: 23px;
+
+align-content: center;
+background: rgba(251, 251, 251, 0.35);
+/* Add Products For Herbal Supplements */
+
+/* position: absolute; */
+/* width: 728px;
+height: 48px;
+left: 161px;
+top: 18px; */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFCFC;
+
+
+}

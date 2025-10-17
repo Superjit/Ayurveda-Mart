@@ -1,0 +1,94 @@
+.login-containers{
+    filter: brightness(50%);
+    background-image: url('../../../public/BodyImage.png');
+    height: 1153px;
+    width: 100%;
+    position: absolute;
+    top: -520px;
+    background-size: cover;
+}
+.centerContainers{
+    filter: brightness(75%);
+    background-image: url('../../../public/BodyImage.png');
+    background-size: cover;
+    height: 633px;
+    width: 846px;
+    /* justify-content: center; */
+    /* display: flex
+; */
+    z-index: 1;
+    position: absolute;
+    left: 18%;
+    top: 0%;
+}
+
+  
+ .form-groups {
+   
+    position: relative;
+   
+    top: 129px;
+    width: 100%;
+    
+  }
+
+  label {
+    display: flex;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 23px;
+  }
+  .labelEmails{
+    display: flex;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 23px;
+        position: relative;
+        left: 10%;
+  }
+  
+  .inputs {
+    width: 78%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    opacity: 0.8;
+
+  }
+  
+  .button-groups {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 132px;
+  }
+  
+  .btnSubmit {
+    padding: 10px 115px;
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff7a; /* Button color */
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 22px;
+    position: relative;
+    left: 1%;
+   
+    
+  }
+ 
+  /* Add more CSS styles for visual appearance */
+  .form_group_row1s{
+    display: flex;
+    position: relative;
+    left: 9%;
+    top: 124px;
+    margin: 47px 0px 40px 0px;
+  }
+  .form_group_row1s .form-group2s{
+    position: relative;
+    left: 20%;
+  }
+  .form_group_row1s input{
+    width: 158%;
+  }

@@ -1,0 +1,72 @@
+.headTextimage{
+    position: relative;
+    width: 150%;
+    height: 68px;
+    right: 5%;
+    max-width: 1000px;
+    /* top: 230px; */
+  
+    align-content: center;
+    background: rgba(251, 251, 251, 0.35);
+    /* Add Products For Herbal Supplements */
+  
+    /* position: relative; */
+    /* width: 728px;
+  height: 48px;
+  left: 161px;
+  top: 18px; */
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+  
+    color: #fffcfc;
+}
+.imageUploadContainer{
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-wrap: wrap;
+    max-width: 700px;
+    position: relative;
+    left: 17%;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+}
+.imageUpload{
+    /* Profile */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 8px;
+
+position: relative;
+width: 70%;
+height: 112px;
+left: 17%;
+/* top: 29px; */
+
+/* Neutral/25 */
+background: #FAFAFA;
+/* Neutral/100 */
+border: 1px dashed #E5E5E5;
+border-radius: 16px;
+
+}
+.imageContainer{
+    background: #ffffff1a;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: relative;
+    top: -25px;
+    right: 5%;
+    width: 109.7%;
+}

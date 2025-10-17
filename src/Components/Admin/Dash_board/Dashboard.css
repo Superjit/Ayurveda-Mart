@@ -1,0 +1,86 @@
+/* Dashboard.css */
+
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #36A2EB;
+    --danger-color: #F44336;
+    --warning-color: #FFC107;
+    --bg-color: #f9f9f941;
+    --text-color: #080808;
+    --card-bg: #ffffff;
+    --card-shadow: 0 4px 6px rgba(250, 250, 250, 0.5);
+    --border-radius: 10px;
+    --transition-speed: 0.3s;
+}
+
+
+
+.dashboard-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Metrics Cards */
+.metrics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.metric-card {
+    background-color: var(--card-bg);
+    box-shadow: var(--card-shadow);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    max-width: 200px;
+    transition: transform var(--transition-speed);
+    cursor: pointer;
+}
+
+.metric-card:hover {
+    transform: scale(1.05);
+}
+
+.metric-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.metric-card p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Charts Layout */
+.charts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.chart-block {
+    background-color: var(--card-bg);
+    box-shadow: var(--card-shadow);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    text-align: center;
+    transition: transform var(--transition-speed);
+   
+}
+
+.chart-block:hover {
+    transform: scale(1.03);
+}
+
+.chart-block h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--text-color);
+}

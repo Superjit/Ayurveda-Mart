@@ -1,0 +1,139 @@
+
+.categoryHeading {
+  /* Herbal Supplements */
+
+  position: absolute;
+  width: 307px;
+  height: 39px;
+  left: 84px;
+  top: 110px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #fffcfc;
+}
+
+.addDetailContainer {
+  /* Frame 59 */
+
+  position: absolute;
+  width: 94%;
+  height: auto;
+  left: 32px;
+  top: 179px;
+
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+}
+
+.categoryData {
+  /* Frame 30 */
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  background: #fff9f9;
+  border-radius: 62px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  margin: 5px;
+
+
+
+position: relative;
+width: 194px;
+height: 52px;
+left: -60px;
+top: 10px;
+
+background: #FFF9F9;
+border-radius: 62px;
+
+}
+
+.categoryInput {
+    /* Frame 27 */
+   
+    width: calc(80% - 180px);
+    height: 40px;
+    background: rgba(255, 255, 255, 0.49);
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 8px 10px;
+    font-size: 16px;
+    margin-left: 3%;
+
+}
+
+.btnAddCategory {
+    /* Frame 58 */
+
+    display: inline-block;
+    padding: 12px 20px;
+    background: #ffffff;
+    /* border: 1px solid #000000; */
+    border-radius: 29px;
+    cursor: pointer;
+    font-size: 16px;
+
+box-sizing: border-box;
+
+/* Auto layout */
+/* display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 54px;
+gap: 12px; */
+
+position: absolute;
+width: 146px;
+
+left: calc(50% - 146px/2 + 356px);
+/* top: 202px; */
+
+/* background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 29px; */
+
+}
+.btnAddProduct{
+  /* Frame 59 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 20px;
+gap: 12px;
+
+position: relative;
+
+
+left: 350px;
+top: 200px;
+
+background: #FFF9F9;
+border-radius: 62px;
+
+}
+
+.removeCategory {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #414141;
+  font-size: 28px;
+ 
+  cursor: pointer;
+}
+
+.removeCategory:hover {
+  color: #000000;
+}

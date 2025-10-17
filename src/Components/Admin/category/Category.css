@@ -1,0 +1,58 @@
+
+
+.category-container {
+    width: 80%;
+    position: relative;
+    top: 10px;
+ 
+  padding: 20px;
+  left: 0%;
+ 
+}
+
+.category-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.category-item {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.category-name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  justify-self: start;
+}
+
+.category-description {
+  font-size: 18px;
+  color: #fffdfd;
+  justify-self: start;
+}
+
+.category-divider {
+  margin-top: 10px;
+  height: 1px;
+  background-color: #ccc;
+  width: 120%;
+}
+.submit-button {
+    padding: 10px 20px;
+    position: relative;
+    left: 8%;
+    background-color: #ffffffd5;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #ffffff;
+  }
+  

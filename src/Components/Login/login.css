@@ -1,0 +1,186 @@
+.login-container {
+  filter: brightness(50%);
+  background-image: url('../../../public/BodyImage.png');
+  height: 1153px;
+  position: absolute;
+  top: -520px;
+  background-size: cover;
+  /* width: 100%; */
+}
+
+.centerContainer {
+  filter: brightness(75%);
+  background-image: url('../../../public/BodyImage.png');
+  background-size: contain;
+  height: 525px;
+  width: 510px;
+  z-index: 1;
+  position: absolute;
+  left: 33%;
+  top: 10%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+  top: 185px;
+  width: 50%;
+  left: 23%;
+}
+
+label {
+  display: flex;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 23px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  opacity: 0.8;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 205px;
+}
+
+button {
+  padding: 10px 35px;
+  border: none;
+  border-radius: 18px;
+  background-color: #ffffff7a;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 22px;
+  position: relative;
+  right: 9%;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+  position: relative;
+  left: 9%;
+}
+
+.forget {
+  position: relative;
+  top: 171px;
+  color: white;
+  right: 76px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .centerContainer {
+      width: 60%;
+      left: 20%;
+      top: 15%;
+  }
+
+  .form-group {
+      width: 70%;
+      left: 15%;
+      top: 150px;
+  }
+
+  .button-group {
+      top: 170px;
+  }
+
+  .forget {
+      right: 50px;
+      top: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .centerContainer {
+      width: 80%;
+      left: 10%;
+      top: 20%;
+      height: auto;
+      padding: 20px;
+  }
+
+  .form-group {
+      width: 80%;
+      left: 10%;
+      top: 120px;
+  }
+
+  label {
+      font-size: 18px;
+  }
+
+  input {
+      padding: 8px;
+      font-size: 14px;
+  }
+
+  .button-group {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      top: 150px;
+  }
+
+  button, .button {
+      font-size: 18px;
+      padding: 10px 20px;
+  }
+
+  .forget {
+      font-size: 14px;
+      top: 110px;
+      right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .centerContainer {
+      width: 90%;
+      left: 5%;
+      top: 10%;
+  }
+
+  .form-group {
+      width: 90%;
+      left: 5%;
+      top: 100px;
+  }
+
+  label {
+      font-size: 16px;
+  }
+
+  input {
+      padding: 8px;
+      font-size: 12px;
+  }
+
+  .button-group {
+      top: 120px;
+  }
+
+  button, .button {
+      font-size: 16px;
+      padding: 8px 16px;
+  }
+
+  .forget {
+      font-size: 12px;
+      top: 90px;
+      right: 10px;
+  }
+}

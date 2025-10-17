@@ -1,0 +1,141 @@
+/* Overall container styling */
+.product-page-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Back button */
+.back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Product layout */
+.product-layout {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Left side (Image section) */
+.product-image-section {
+    flex: 1;
+    max-width: 500px;
+    display: inline-flex;
+}
+
+/* Main product image */
+.product-main-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Thumbnail images */
+.product-thumbnails {
+    /* display: flex; */
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+.thumbnail.active {
+    border: 2px solid #007bff;
+    opacity: 1;
+}
+
+/* Right side (Product description and details) */
+.product-description-section {
+    flex: 1;
+    max-width: 500px;
+}
+
+/* Sidebar for product details */
+.product-sidebar {
+    margin-bottom: 30px;
+}
+
+.product-sidebar h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-sidebar ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Product description styling */
+.product-description {
+    margin-bottom: 20px;
+}
+
+.product-description h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-description p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Product actions (Add to cart and Buy Now buttons) */
+.product-actions {
+    display: flex;
+    gap: 20px;
+}
+
+.add-to-cart, .buy-now {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 45%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.add-to-cart:hover, .buy-now:hover {
+    background-color: #218838;
+}
+
+.add-to-cart:disabled, .buy-now:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

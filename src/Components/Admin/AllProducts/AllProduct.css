@@ -1,0 +1,218 @@
+/* Container for category data */
+.category-data-container1 {
+  width: 96%;
+  padding: 0px 20px 0px 20px;
+  margin: 0 auto;
+  background-color: #24242452;
+  border-radius:12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  animation: fadeIn 1s ease-out;
+  color: white;
+}
+
+/* Table styles */
+.table-responsive1 {
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile devices */
+  margin-bottom: 20px;
+  background-color: #ffffff0a;
+  border-radius: 13px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: white;
+  padding: 10px;
+  max-height: 500px;
+}
+
+.table1 {
+  width: 220%;
+  /* min-width: 800px; Ensure proper width for the table */
+  color: white;
+  border-collapse: collapse; /* Merging borders */
+  background-color: #ffffff00;
+  border-radius: 12px;
+  height: 100px;
+}
+
+.table1 th,
+.table1 td {
+  padding: 15px 20px;
+  text-align: left;
+  border: 1px solid #141414; /* Lighter border color */
+  word-wrap: break-word; /* Prevents word overflow */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.table1 th {
+  background-color: #00000015;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.table1 td {
+  background-color: #00000000;
+  color: #ffffff;
+}
+
+
+.product-table1 th {
+  font-weight: bold;
+  background-color: hsla(180, 100%, 67%, 0.089); /* Soft blue background for headers */
+}
+
+.product-image1 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 12px; /* Rounded images */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Loading and error message */
+.loading,
+.error {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  color: #f44336; /* Red color for errors */
+}
+
+/* Pagination styling */
+.pagination-container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+/* Table Row Styling */
+table1 tr:nth-child(even) {
+  background-color: #f9f9f917; /* Subtle striping */
+}
+
+table1 tr:hover {
+  background-color: #f1f1f11c; /* Highlight row on hover */
+  /* transform: scale(1.01); Slight zoom effect */
+  transition: transform 0.8s ease;
+}
+
+/* Scrollbar styles for better UI */
+.table-responsive1::-webkit-scrollbar {
+  height: 10px; /* Set the height of the horizontal scrollbar */
+}
+
+.table-responsive1::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.table-responsive1::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.table-responsive1::-webkit-scrollbar-thumb:hover {
+  background-color: #0056b3; /* Darker thumb on hover */
+}
+
+/* Buttons for Active/Inactive status */
+.button-active1 {
+  background-color: #4caf50; /* Green for active status */
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.button-active1:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+.button-inactive1 {
+  background-color: #f44336; /* Red for inactive status */
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.button-inactive1:hover {
+  background-color: #e53935; /* Darker red on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+/* Tooltip styling */
+.table1 td .tooltip1 {
+  visibility: hidden;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.table1 td:hover .tooltip1 {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Subtle animation for the container */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Pagination and action buttons */
+.pagination-container1 .btn1,
+.product-table1 .btn1 {
+  margin: 0 5px;
+  padding: 10px 15px;
+  background-color: #007bff; /* Blue by default */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Specific styles for the Update and Delete buttons */
+.product-table1 .btn-warning1 {
+  background-color: #ff9800; /* Orange for Update */
+  border-radius: 5px;
+}
+
+.product-table1 .btn-danger1 {
+  background-color: #f44336; /* Red for Delete */
+  border-radius: 5px;
+}
+
+/* Hover effect for Update and Delete buttons */
+.product-table1 .btn-warning1:hover {
+  background-color: #e68900; /* Darker orange for Update */
+}
+
+.product-table1 .btn-danger1:hover {
+  background-color: #e53935; /* Darker red for Delete */
+}
+.updatebtn{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
