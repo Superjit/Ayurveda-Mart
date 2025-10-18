@@ -87,7 +87,7 @@ function App() {
       }
     };
     fetchCartCount();
-  }, []);
+  }, [useremail]);
 
   return (
     <Router>
